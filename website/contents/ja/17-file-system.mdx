@@ -20,8 +20,8 @@ tarファイルは、複数のファイルをまとめるアーカイブファ�
 
 ```plain
 $ mkdir disk
-$ vim disk/hello.txt
-$ vim disk/meow.txt
+$ echo "hello, world" > disk/hello.txt
+$ echo "meow, meow" > disk/meow.txt
 ```
 
 ビルドスクリプトにtarファイルの作成コマンドを追加し、それをディスクイメージとしてQEMUに渡すようにします。
